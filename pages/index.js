@@ -12,7 +12,7 @@ export default function Home() {
       <div className="bg-[#F4F4F4] max-h-full flex justify-center py-24">
         <div className="font-poppins">
           <div className="text-4xl text-center text-red-600 font-bold">
-            Our service
+            Our services
           </div>
           <div class="grid md:grid-cols-3 grid-cols- justify-center mt-10">
             <div class="max-w-xs mx-4 ">
@@ -26,11 +26,23 @@ export default function Home() {
               <div class="p-4">
                 <div class="text-center mb-4">
                   <h2 class="text-xl font-bold  text-red-600">
-                    Healthcare Services
+                    <a
+                      href="https://jjowen-care.co.uk/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Healthcare Services
+                    </a>
                   </h2>
                 </div>
-                <button class="block mx-auto bg-red-500 hover:bg-red-600 text-white py-2 px-4 ">
-                  Learn more
+                <button class="block mx-auto bg-red-500 hover:bg-red-600 text-white py-2 px-4">
+                  <a
+                    href="https://jjowen-care.co.uk/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Learn more
+                  </a>
                 </button>
               </div>
             </div>
@@ -65,12 +77,24 @@ export default function Home() {
               />
               <div class="p-4">
                 <div class="text-center mb-4">
-                  <h2 class="text-xl font-bold  text-red-600">
-                    IT Consulting Services
+                  <h2 class="text-xl font-bold text-red-600">
+                    <a
+                      href="https://jjowen-it.co.uk/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      IT Consulting Services
+                    </a>
                   </h2>
                 </div>
-                <button class="block mx-auto bg-red-500 hover:bg-red-600 text-white py-2 px-4 ">
-                  Learn more
+                <button class="block mx-auto bg-red-500 hover:bg-red-600 text-white py-2 px-4">
+                  <a
+                    href="https://jjowen-it.co.uk/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Learn more
+                  </a>
                 </button>
               </div>
             </div>
