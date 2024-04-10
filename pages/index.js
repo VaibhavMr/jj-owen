@@ -12,7 +12,7 @@ export default function Home() {
       <div className="bg-[#F4F4F4] max-h-full flex justify-center py-24">
         <div className="font-poppins">
           <div className="text-4xl text-center text-red-600 font-bold">
-            Our services
+            Our Services
           </div>
           <div class="grid md:grid-cols-3 grid-cols- justify-center mt-10">
             <div class="max-w-xs mx-4 ">
